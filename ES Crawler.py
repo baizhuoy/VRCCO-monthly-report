@@ -38,8 +38,8 @@ driver.get("https://www.esutures.com/account/login/")
 
 # driver.find_element_by_xpath('/html/body/scipt/div[2]/div/button').click()
 # input account name and password
-driver.find_element_by_id("login_id").send_keys("mdujowich@vrcvet.com")
-driver.find_element_by_id("pass").send_keys("1820Monterey")
+driver.find_element_by_id("login_id").send_keys("****")
+driver.find_element_by_id("pass").send_keys("*****")
 # submit passcode
 driver.find_element_by_id("loginBtn").click()
 
